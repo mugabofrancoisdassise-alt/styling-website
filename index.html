@@ -4,108 +4,107 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dine Mks - Restaurant</title>
-    <link rel="stylesheet" href="mystyle.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
 </head>
-<body> 
-     <header>
-        <main>
-           <h1 style="color: white;">Dine <img style="width: 30px;" src="restaurant (1).png" alt="Restaurant"> Mks</h1>
+<body class="font-serif leading-relaxed"> 
+     <header class="bg-[#093003] py-5">
+        <main class="mx-auto items-center justify-between max-w-[1120px] flex bg-[rgba(240,248,255,0.301)] p-5 rounded-[50px]">
+          <a href="index.html"> <h1 class="flex text-white">Dine <img class="w-[30px]" src="restaurant (1).png" alt="Restaurant"> Mks</h1></a>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="services.html">service</a></li>
-                <li><a href="contact.html">contact</a></li>
-                <li><a href="form.html">form</a></li>
-                <li><a href="media.html">media</a></li>
+                <li class="inline ml-9 text-xl"><a class="no-underline text-white hover:text-[#093003]" href="index.html">Home</a></li>
+                <li class="inline ml-9 text-xl"><a class="no-underline text-white hover:text-[#093003]" href="about.html">About</a></li>
+                <li class="inline ml-9 text-xl"><a class="no-underline text-white hover:text-[#093003]" href="services.html">service</a></li>
+                <li class="inline ml-9 text-xl"><a class="no-underline text-white hover:text-[#093003]" href="contact.html">contact</a></li>
             </ul>
         </nav>
-        <img style="width: 30px; margin-left: 40px;" src="search.png" alt="search">
-        <button>sign in</button>
+        <img class="w-[30px] ml-10" src="search.png" alt="search">
+        <a href="#"><button class="bg-white px-4 mx-20 w-25 h-[30px]  rounded-[10px]">sign in</button></a>
         </main>
     </header>
-    <section class="hero1">
-        <div class="hero11">
-            <h2>Savor the Exquisite Flavors of Dine Mks5 <sup>best dish</sup></h2>
-            <button>Reserve Your Table</button>
+    <section class="hero1 flex bg-[#093003] ">
+        <div>
+            <h2 class="text-[45px] ml-10 pt-[150px] text-white">Savor the Exquisite Flavors of Dine Mks5 <sup>best dish</sup></h2>
+            <button class="w-40 mt-15 text-base text-[#093003]">Reserve Your Table</button>
         </div>
-        <div class="hero12">
-            <img class="burger" src="burger.png" alt="burger">
-            <img class="salad" src="salad.png" alt="salad">
+        <div class="hero12 w-2/5">
+            <img class="burger w-[400px] -rotate-[40deg]" src="burger.png" alt="burger">
+            <img class="salad w-[400px] -mt-[70px] -ml-[250px]" src="salad.png" alt="salad">
         </div>
     </section>
 
-    <section class="herosecond">
+    <section class="herosecond flex mx-10 mt-15 h-[500px] items-center">
         <div>
-            <img class="second1" src="chef.jpg" alt="chef">
-            <img class="second2" src="chef.jpg" alt="chef">
+            <img class="second1 w-[600px] rounded-t-[50px]" src="chef.jpg" alt="chef">
+            <img class="second2 w-[600px] -mt-[10px] -rotate-180 rounded-t-[50px]" src="chef.jpg" alt="chef">
             </div>
             <div>
-            <img src="salade special.jpg" alt="Meal plating" class="second3">
-            <img src="all food.jpg" alt="Meal plating" class="second4">
+            <img src="salade special.jpg" alt="Meal plating" class="second3 w-[500px] rounded-t-[50px] ml-5">
+            <img src="all food.jpg" alt="Meal plating" class="second4 w-[300px] ml-5 mt-2">
         </div>
-        <div class="last">
-            <h3>Explore our menus</h3>
+        <div class="last mt-10 pl-20">
+            <h3 class="text-4xl">Explore our menus</h3>
             <p>A culinary sanctuary where taste, local quality ingredients & timeless life stories unfold daily.&nbsp;
             We believe in the power of simple, seasonal fare, prepared with care. Our ever-evolving menu reflects &nbsp;
             our devotion to the community, connection, and craft. Each meal invites you to pause for thought, &nbsp;
             humanity, and togetherness in the world around you.</p>
-            <button>Book a Table</button>
+            <a href="#"><button class="bg-[#884534] mt-7.5 -ml-1.25 mt-4 px-4 py-2 rounded-[4px] text-white text-[10px]">Book a Table</button></a>
         </div>
     </section>
 
-    <section class="herothird">
+    <section>
         
-        <div class="herothird1">
+        <div class=" bg-[#D3DBB6] flex px-10 py-15 justify-between px-30 py-20">
             <div>
-                <h2>About Us</h2>
+                <h2 class="text-4xl">About Us</h2>
                 <h3>Fresh & Quality Ingredients</h3>
                 <p>We use locally sourced, organic produce to deliver the best possible experience.</p>
                 <h3>Expert Chefs</h3>
                 <p>Our team of chefs brings years of culinary expertise to create dishes that delight.</p>
-                <button>Read More</button>
+                <button class="mt-10 w-50 -ml-0.75 bg-[#884534] rounded-[4px] text-white text-[10px] px-4 py-2">Read More</button>
             </div>
-            <div class="herothird2">
-                <img src="kichen maker.jpg" alt="kichen maker">
+            <div class="herothird2 bg-white rounded-tr-[50px] rounded-bl-[50px]">
+                <img src="kichen maker.jpg" alt="kichen maker" class="h-[300px] w-[400px] py-10">
             </div>
         </div>
     </section>
 
-    <footer>
-        <table width="100%" cellpadding="10">
+    <footer class=" bg-[#884534] ">
+        <table class="mx-10 " width="100%" cellpadding="10">
             <tr>
                 <td width="33%">
-                     <h1 style="color: white;">Dine <img style="width: 30px;" src="restaurant (1).png" alt="Restaurant"> Mks</h1>
-                    <p>Dine Divine is a modern restaurant where fresh ingredients and expert craftsmanship come together.We serve flavorful dishes inspired by both classic recipes and contemporary tastes.</p>
-                    <div style="display: flex;justify-content: space-between;margin-top: 20px;">
-                        <img src="twitter.png" alt="twitter">
-                        <img src="whatsapp.png" alt="whatsapp">
-                        <img src="facebook.png" alt="facebook">
-                        <img src="linkedin.png" alt="linkedin">
+                     <h1 class="text-white">Dine <img class="w-[30px]" src="restaurant (1).png" alt="Restaurant"> Mks</h1>
+                    <p class="mt-5 text-white">Dine Divine is a modern restaurant where fresh ingredients and expert craftsmanship come together.We serve flavorful dishes inspired by both classic recipes and contemporary tastes.</p>
+                    <div class="flex  mt-5 mb-10">
+                      <a href="#"> <i class="fa-brands fa-square-x-twitter text-[#fc9e05] text-[60px]"></i></a>
+                       <a href="#"><i class="fa-brands fa-square-whatsapp text-[#fc9e05] text-[60px]"></i></a> 
+                       <a href="#"> <i class="fa-brands fa-square-facebook text-[#fc9e05] text-[60px]"></i></a>
+                       <a href="#"> <i class="fa-brands fa-linkedin text-[#fc9e05] text-[60px]"></i></a>
                     </div>
                 </td>
                 <td width="33%">
-                    <nav>
-                        <h3>Quick Link</h3>
-                        <a href="index.html">Home</a><br>
-                        <a href="about.html">About Us</a><br>
-                        <a href="services.html">Service</a><br>
-                        <a href="contact.html">Contact</a><br>
-                        <a href="form.html">Form</a><br>
-                        <a href="media.html">Media</a>
+                    <nav class="ml-36">
+                        <h3 class="text-4xl text-white">Quick Link</h3>
+                        <a class="no-underline text-white text-xl hover:text-[#093003]" href="index.html">Home</a><br>
+                        <a class="no-underline text-white text-xl hover:text-[#093003]" href="about.html">About Us</a><br>
+                        <a class="no-underline text-white text-xl hover:text-[#093003]" href="services.html">Service</a><br>
+                        <a class="no-underline text-white text-xl hover:text-[#093003]" href="contact.html">Contact</a><br>
+                        <a class="no-underline text-white text-xl hover:text-[#093003]" href="form.html">Form</a><br>
+                        <a class="no-underline text-white text-xl hover:text-[#093003]" href="media.html">Media</a>
                     </nav>
                 </td>
                 <td width="33%">
-                    <h3>Subscription</h3>
+                    <h3 class="text-4xl text-white">Subscription</h3>
                     <form>
-                        <label class="footerform1">Email</label><br>
-                        <input class="footerform2" type="email" placeholder="Email"><br><br>
-                        <button class="footerform3" type="submit">Submit</button>
+                        <label class="footerform1 text-white">Email</label><br>
+                        <input class="footerform2 w-[300px] p-2.5" type="email" placeholder="Email"><br><br>
+                        <button class="footerform3 w-[300px] bg-[#D3DBB6] -ml-px" type="submit">Submit</button>
                     </form>
                 </td>
             </tr>
         </table>
-            <p class="copyright">&copy; <time datetime="2026">2026</time> Dine Divine. Crafted with passion for great food.</p>
+            <p class="copyright text-lg mx-10 -mb-20 text-white italic ">&copy; <time datetime="2026">2026</time> Dine Divine. Crafted with passion for great food.</p>
     </footer>
 </body>
 </html>
